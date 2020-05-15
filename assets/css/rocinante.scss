@@ -68,10 +68,18 @@ ol li {
   margin-bottom: 0.2em;
 }
 
+ul {
+  margin-left: 2.5em;
+}
+
 ul li {
   list-style: disc;
   margin-left: 1.25em;
   margin-bottom: 0.2em;
+}
+
+ul li p {
+  margin: 0.25em 0;
 }
 
 dt {
@@ -141,6 +149,7 @@ td, th {
   vertical-align: middle;
   padding: .25rem .5rem;
   border: 1px solid #ddd;
+  text-align: center;
 }
 
 th {
@@ -169,7 +178,7 @@ header h2 {
   a {
     text-decoration: none;
     border: none;
-    color: #77f !important;
+    color: #3d80ff !important;
 
     &:hover {
       color: #f77 !important;
@@ -244,7 +253,7 @@ footer {
     border: none;
 
     &:hover {
-      color: #5544FF;
+      color: #3d80ff;
     }
   }
   .read-more {
@@ -308,6 +317,44 @@ footer {
       grid-column-start: 1;
       grid-column-end: 3;
     }
+  }
+}
+
+.post-info {
+  .date, .date h5, .author, .author h5 {
+    display: inline;
+  }
+  .author {
+    color: #888;
+    border-left: solid 2px #ccc;
+    padding-left: 1em;
+    margin-left: 1em;
+  }
+}
+
+.highlight-blue {
+  background-color: #a3c3ff;
+  color: #3d80ff;
+  display: inline-block;
+  padding: 0 0.25em;
+  border-radius: 0.25em;  
+}
+
+.highlight-purple {
+  background-color: #c8a3ff;
+  color: #9d3dff;
+  display: inline-block;
+  padding: 0 0.25em;
+  border-radius: 0.25em;  
+}
+
+h1, h2, h3, h4, h5 {
+  .highlight-blue, .highlight-purple {
+    padding: 0.25em 0.25em;
+  }
+  .subheading {
+    font-size: smaller;
+    font-weight: normal;
   }
 }
 
