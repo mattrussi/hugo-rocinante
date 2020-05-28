@@ -348,6 +348,45 @@ footer {
   border-radius: 0.25em;  
 }
 
+.interviewee {
+  color:#3d80ff;
+  font-size:3em;
+  font-weight:200;
+  padding-top:1em;
+  padding-bottom:.7em
+}
+
+.interviewee sup {
+  font-size:.4em
+}
+
+.interviewPanel {
+  margin-left:5.5em
+}
+
+.interviewQuestion {
+  color:#adadad;
+  position:relative
+}
+
+.flag {
+  color:white;
+  width:60px;
+  height:30px;
+  padding-right:12px;
+  padding-top:3px;
+  text-align:right;
+  border-radius:4px;
+  position:absolute;
+  left:-90px;top:-6px;
+  background:#3d80ff
+}
+
+.interviewAnswer {
+  font-size:1.45em;
+  padding-bottom:3em
+}
+
 h1, h2, h3, h4, h5 {
   .highlight-blue, .highlight-purple {
     padding: 0.25em 0.25em;
